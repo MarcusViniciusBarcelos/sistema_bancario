@@ -1,5 +1,3 @@
-from sqlalchemy.orm import sessionmaker
-
 from app.persistence.database import (initialize_db,
                                       get_session)
 from app.domain.use_cases.cliente_use_cases import ClienteUseCases

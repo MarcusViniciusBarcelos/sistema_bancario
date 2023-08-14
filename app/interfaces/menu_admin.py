@@ -1,7 +1,6 @@
 # app/interfaces/menu_admin.py
-from app.domain.use_cases.cliente_use_cases import  ClienteUseCases
+from app.domain.use_cases.cliente_use_cases import ClienteUseCases
 from app.domain.use_cases.conta_use_cases import ContaUseCases
-from app.domain.models.cliente import Cliente
 
 
 class MenuAdmin:
